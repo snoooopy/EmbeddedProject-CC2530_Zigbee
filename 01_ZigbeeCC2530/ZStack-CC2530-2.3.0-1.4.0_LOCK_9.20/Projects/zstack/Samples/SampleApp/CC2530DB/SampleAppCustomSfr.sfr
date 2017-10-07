@@ -1,0 +1,31 @@
+[Sfr]
+sfr = "DPL",	"SFR",	0x82,	1,	base=16,	modified
+sfr = "DPH",	"SFR",	0x83,	1,	base=16,	modified
+sfr = "IE",	"SFR",	0xa8,	1,	base=16,	modified
+sfr = "IP",	"SFR",	0xb8,	1,	base=16,	modified
+sfr = "TCON",	"SFR",	0x88,	1,	base=16,	modified
+sfr = "TMOD",	"SFR",	0x89,	1,	base=16,	modified
+sfr = "TL0",	"SFR",	0x8a,	1,	base=16,	modified
+sfr = "TL1",	"SFR",	0x8b,	1,	base=16,	modified
+sfr = "TH0",	"SFR",	0x8c,	1,	base=16,	modified
+sfr = "TH1",	"SFR",	0x8d,	1,	base=16,	modified
+sfr = "T2CON",	"SFR",	0xc8,	1,	base=16,	modified
+sfr = "T2MOD",	"SFR",	0xc9,	1,	base=16,	modified
+sfr = "RCAP2L",	"SFR",	0xca,	1,	base=16,	modified
+sfr = "RCAP2H",	"SFR",	0xcb,	1,	base=16,	modified
+sfr = "TL2",	"SFR",	0xcc,	1,	base=16,	modified
+sfr = "TH2",	"SFR",	0xcd,	1,	base=16,	modified
+sfr = "P0",	"SFR",	0x80,	1,	base=16,	modified
+sfr = "P1",	"SFR",	0x90,	1,	base=16,	modified
+sfr = "P2",	"SFR",	0xa0,	1,	base=16,	modified
+sfr = "P3",	"SFR",	0xb0,	1,	base=16,	modified
+sfr = "SCON",	"SFR",	0x98,	1,	base=16,	modified
+sfr = "SBUF",	"SFR",	0x99,	1,	base=16,	modified
+sfr = "PCON",	"SFR",	0x87,	1,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "DPL", "DPH", "IE", "IP", "TCON", "TMOD"
+group = "Custom", "TL0", "TL1", "TH0", "TH1", "T2CON", "T2MOD"
+group = "Custom", "RCAP2L", "RCAP2H", "TL2", "TH2", "P0", "P1"
+group = "Custom", "P2", "P3", "SCON", "SBUF", "PCON"
